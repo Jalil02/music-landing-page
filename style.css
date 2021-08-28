@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+header {
+    background-image: url(img/music.jpg);
+    background-size: 100% 100%;
+    height: 1080px;
+}
+
+header button {
+    border: none;
+    outline: none;
+    filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.23));
+    background-color: #fd4c5c;
+}
+
+header h1 {
+    font: 400 15.625em "Karla";
+    line-height: 125px;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+#transparent {
+    font: 400 15.625em "Karla";
+    line-height: 125px;
+    color: #FFF;
+    text-align: center;
+    filter: drop-shadow(0px 7px 9px rgba(0, 0, 0, 0.15));
+    opacity: 0.2;
+}
+
+#first {
+    margin-top: 276px;
+    margin-bottom: 278px;
+}
+
+#first h1 {
+    font: 700 5.1875em "Karla";
+    line-height: 125px;
+    color: #363636;
+}
+
+#colored {
+    font-size: 700 5.1875em "Karla";
+    line-height: 125px;
+    color: #363636;
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#first p {
+    width: 667px;
+    height: 199px;
+    font-size: 400 1.5625em "Karla";
+    line-height: 42px;
+    color: #363636;
+    margin-bottom: 49px;
+}
+
+#first button {
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #fd4c5c;
+    border: none;
+    outline: none;
+    font: 400 1.3125em "Karla";
+    line-height: 42px;
+    color: #FFF;
+}
+
+#second {
+    margin-bottom: 163px;
+}
+
+#second h1 {
+    font: 700 5.1875em "Karla";
+    line-height: 125px;
+    color: #363636;
+}
+
+#second p {
+    width: 667px;
+    height: 199px;
+    font: 400 1.5625em "Karla";
+    line-height: 42px;
+    color: #363636;
+    margin-bottom: 48px;
+}
+
+#second button {
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #fd4c5c;
+    font: 400 1.5625em "Karla";
+    line-height: 42px;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+
+#third {
+    background-image: url(img/image3.jpg);
+    background-size: 100% 100%;
+    height: 792px;
+    padding-top: 214px;
+}
+
+#third div {
+    position: relative;
+    padding-left: 1085px;
+}
+
+#third h1 {
+    width: 600px;
+    font: 700 5.1875em "Karla";
+    line-height: 125px;
+    color: #FFF;
+}
+
+#third p {
+    width: 667px;
+    height: 154px;
+    font: 400 1.5625em "Karla";
+    line-height: 42px;
+    color: #FFF;
+    margin-bottom: 44px;
+}
+
+#third button {
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    filter: drop-shadow(0px 7px 9px rgba(0, 0, 0, 0.22));
+    background-color: #fd4c5c;
+    font: 400 1.3125em "Karla";
+    line-height: 42px;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+
+footer {
+    height: 455px;
+    background-image: linear-gradient(-45deg, #fd2c5b 0%, #fd4b5b 100%);
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    font: 400 1.0625em "Karla";
+    line-height: 37px;
+    color: #FFF;
+}
+
+footer .row {
+    padding-top: 91px;
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+hr {
+    width: 1263px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+#footer {
+    position: relative;
+    bottom: 45px;
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+h6 {
+    font: 0.875em "Times New Roman";
+    line-height: 30px;
+    color: #FFF;
+}
+
+#email {
+    font: 400 0.875em "Karla";
+    line-height: 30px;
+    color: #FFF;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FFF;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 338px;
+    }
+    header h1 {
+        font-size: 73px;
+        top: 40px;
+    }
+    #transparent {
+        font-size: 73px;
+    }
+    #first {
+        margin-top: 138px;
+    }
+    #first h1 {
+        font-size: 70px;
+    }
+    #colored {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    header {
+        height: 675px;
+    }
+    header h1 {
+        font-size: 9.875em;
+        top: 225px;
+    }
+    #transparent {
+        font-size: 9.875em;
+    }
+    #first img {
+        margin-top: 49px;
+    }
+    #colored {
+        font-size: 1.1875em;
+    }
+    #third div {
+        padding-left: 434px;
+    }
+    hr {
+        width: 963px;
+    }
+    footer .row {
+        padding-left: 100px;
+    }
+    #footer {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+}
